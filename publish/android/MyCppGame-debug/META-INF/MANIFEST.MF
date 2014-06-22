@@ -1,0 +1,201 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: UCzYT6RE8m1+z99KNVBkhnl38jY=
+
+Name: assets/Sounds/pop_star.wav
+SHA1-Digest: 4JlzvdKM/rdiUhuBXS9AFRHgFBc=
+
+Name: assets/Sounds/select.wav
+SHA1-Digest: zIyx6wzCKlGkWQtclXwDZDHBV3s=
+
+Name: assets/highscore.png
+SHA1-Digest: Qwh0lfSuwFAex6VSUqzSgr5rtUs=
+
+Name: assets/Sounds/round_start.wav
+SHA1-Digest: eXUXbYOi/KNYNjsUFFUoDDLQ3N4=
+
+Name: assets/background_layer0.png
+SHA1-Digest: 67Ah4ONaKRVqURfp7dv+c+9IsD4=
+
+Name: assets/stage_clear.png
+SHA1-Digest: ux2bjsPpjwjA7zsNhm8lga5MQSI=
+
+Name: assets/Sounds/select.mp3
+SHA1-Digest: 10oVj8YUdquA5jvMoLOm0jfb5qM=
+
+Name: assets/Sounds/fireworks_02.wav
+SHA1-Digest: qpMpEzMejejTF3aXmrWdFzlIgVs=
+
+Name: assets/Sounds/cheers.wav
+SHA1-Digest: rKmHQXox18ViVqFTud1glRTBdWc=
+
+Name: assets/Sounds/gameover.wav
+SHA1-Digest: d7XaWSSN4fGBNhapURAYOzVnnQs=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: 7ZpQleft0zof8W23l78Czc2q8GE=
+
+Name: assets/Sounds/fireworks_01.wav
+SHA1-Digest: f6viWr2bX3ddCuPt9j1gX12Hb8c=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: 5yVixyEiHKDj3jeInJrQK2ktAeI=
+
+Name: assets/Sounds/score_tick.wav
+SHA1-Digest: 0hPjTotvh1qDcSunZO1Qxqpu0Qs=
+
+Name: assets/fireworks_04.png
+SHA1-Digest: KYU8a64gsJ6Giz8yRv9iOxJDO3c=
+
+Name: assets/menu_resume.png
+SHA1-Digest: JZ8ATaGzONuQBCTSrQIZs12Ch8g=
+
+Name: assets/block.plist
+SHA1-Digest: zWFEjTz0H2fjlLjzyx2uPjQBZqE=
+
+Name: assets/light_blue.png
+SHA1-Digest: 8XFfsSMDAfOxgSbmDiBSt5gpRQs=
+
+Name: assets/HelloWorld.png
+SHA1-Digest: tlCDturH7ovoyz2c7+EM3+0ot7A=
+
+Name: assets/Sounds/button_start.wav
+SHA1-Digest: k3cy2OEIBq1Y51nOAkuLtc1RzMI=
+
+Name: assets/Sounds/daybyday.mp3
+SHA1-Digest: SNKOhNLKkg1w5Kes/8JZgYozQwQ=
+
+Name: assets/light_pink.png
+SHA1-Digest: 7ntkFzouwlDnRGfkkPjXodJxuEY=
+
+Name: res/drawable-xxhdpi/ic_launcher.png
+SHA1-Digest: UCzYT6RE8m1+z99KNVBkhnl38jY=
+
+Name: assets/Sounds/fireworks_03.wav
+SHA1-Digest: 7p5cNI/YeuSgfubTK09SH4J2npA=
+
+Name: assets/Sounds/button_start.mp3
+SHA1-Digest: UPbFmhRMGrCVRpBe5CgyXuQDEas=
+
+Name: assets/Sounds/landing.mp3
+SHA1-Digest: NSbfFEv2997jsdjoIVD/pLFX0hE=
+
+Name: assets/fonts/tuffy_bold_italic-charmap.png
+SHA1-Digest: 9dh+1+8gCXCM2hV1RfUJ1rZugTA=
+
+Name: assets/fireworks_01.png
+SHA1-Digest: m2S0iXZzAa/4R1UkkHWUDYBizwY=
+
+Name: assets/fonts/tuffy_bold_italic-charmap.plist
+SHA1-Digest: UBhE1Gk/E5ijuBE0b+Y8RihW390=
+
+Name: assets/Sounds/landing.wav
+SHA1-Digest: DzAcF/zGIv5BYti/S7W00Su/J7s=
+
+Name: assets/fireworks_02.png
+SHA1-Digest: gsgg+U/K4SjXGUZOHr4a1QdBgOk=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: RQ09RDJf3yWYEKYOavo2ED4Yaz0=
+
+Name: assets/Sounds/logo.wav
+SHA1-Digest: 7aaH9gxrjrno/QdNZZDLZkvwpAQ=
+
+Name: assets/menu_resume_disabled.png
+SHA1-Digest: PaZZxMl2HEcyvhoR1HPWenziiRM=
+
+Name: resources.arsc
+SHA1-Digest: JRmDj0dPO5IQyaWSIRhj11jr6Zw=
+
+Name: assets/light_yellow.png
+SHA1-Digest: ohdSBedLMd/x0SKKW2HEm1Duq4o=
+
+Name: assets/CloseNormal.png
+SHA1-Digest: /QGcO1MOwaLN1VS5dk86sEDqqKA=
+
+Name: assets/CloseSelected.png
+SHA1-Digest: jAGLZR1Zw3vujySy5fwK5FRJTgA=
+
+Name: assets/block.pvr.ccz
+SHA1-Digest: yiAcl7MLBu+9N3fjPHssw4utSdM=
+
+Name: AndroidManifest.xml
+SHA1-Digest: hAGqxeRt8E9e5uov/J6wZtuuezo=
+
+Name: assets/menu_start.png
+SHA1-Digest: yVyu+7g/5UaYnMzMAP6hQKKBfDk=
+
+Name: res/drawable-xxhdpi/icon.png
+SHA1-Digest: LutZCsnVMcdsdul0Jl3F6pmwYtU=
+
+Name: assets/paticle_0.plist
+SHA1-Digest: 8EahpjK5rzpU8MAA+QZS9eGyZoo=
+
+Name: assets/menu_shop.png
+SHA1-Digest: lrTkW8tH5QhFimW0d+wr3+zRYbE=
+
+Name: assets/fonts/Marker Felt.ttf
+SHA1-Digest: Ul8qSkVFD87LPYpf1H07D0hPYps=
+
+Name: assets/fireworks_05.png
+SHA1-Digest: sCq6/XQLOenovI8wLWxpofwta7E=
+
+Name: assets/paticle_4.plist
+SHA1-Digest: m+g2uHiZ+J7y+P+ZQpk3Se+ZqqY=
+
+Name: lib/armeabi/gdbserver
+SHA1-Digest: hc99Po+p3TRImQcNuzcSNC7tpNw=
+
+Name: assets/combo_awesome.png
+SHA1-Digest: bzAcgzFHAjPjJ6NsqNV4MSTjEP4=
+
+Name: res/drawable-xhdpi/icon.png
+SHA1-Digest: aOJ4oybz+cYD0D19Q3Dxlf+wOP4=
+
+Name: assets/Sounds/clear.mp3
+SHA1-Digest: 53Od1dgm/wzHsTBTA3LPaYImXQE=
+
+Name: assets/paticle_1.plist
+SHA1-Digest: ux2HiQfqVN5+f/EJpxcK8RefujI=
+
+Name: assets/paticle_2.plist
+SHA1-Digest: lf/AynHWrVvaFPv0Slvnw7Tl4Hc=
+
+Name: assets/paticle_3.plist
+SHA1-Digest: nbUirZ/Cd5iVFot8onQ3Bf5FWWY=
+
+Name: assets/light_green.png
+SHA1-Digest: Apf2+xYIRi5Mpaw8yYAY2w+9Vfs=
+
+Name: classes.dex
+SHA1-Digest: Z5aaAA0InyPUvnONTUNc++C2+xo=
+
+Name: assets/Sounds/pop_star.mp3
+SHA1-Digest: aJz0XhxsJT31Va2wo8jQTKq2+xc=
+
+Name: lib/armeabi/libcocos2dcpp.so
+SHA1-Digest: 0OSBn/j0Jv/099do78enz1kg/w4=
+
+Name: assets/tips.png
+SHA1-Digest: ARetJgGHhA40qZ/1qcImHdJrPSY=
+
+Name: assets/light_red.png
+SHA1-Digest: WlqZH1QzMtnnvIJOhHXt33bU2WY=
+
+Name: assets/Sounds/clear.wav
+SHA1-Digest: FevGHOhURhQRuapkrPT5EmnIdLY=
+
+Name: assets/fireworks_03.png
+SHA1-Digest: c0IWlmW4EB6oVqpl8YhKzLo8kZg=
+
+Name: assets/Sounds/applause.wav
+SHA1-Digest: Zevyn83WpWFizyVpRClCPQQl9oY=
+
+Name: assets/title_popstar.png
+SHA1-Digest: oPu2hTuJLEStlxba9Uxyjyqm7EI=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: fcGlnY43rLLXtu1Ml53maAYuQQg=
+

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dict>
+	<key>level</key>
+	<string>关卡:</string>
+	<key>target</key>
+	<string>目标分:</string>
+	<key>gameOver</key>
+	<string>游戏结束！</string>	
+	<key>canGetScore</key>
+	<string>%d连消可获得%d分</string>	
+	<key>gameName</key>
+	<string>吃饭睡觉PopStar</string>	
+	<key>confirm</key>
+	<string>确定</string>	
+	<key>cancel</key>
+	<string>取消</string>
+	<key>typeName</key>
+	<string>大侠请留名！</string>
+</dict>
