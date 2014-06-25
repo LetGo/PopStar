@@ -48,3 +48,8 @@ ipch/
 # ReSharper is a .NET coding add-in
 _ReSharper*
 
+/cocos2d
+/proj.android
+/proj.win32
+.cocos-project.json
+CMakeLists.txt
