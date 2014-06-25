@@ -2,6 +2,7 @@
 #include "GameManager.h"
 #include "SoundBank.h"
 #include "TextBank.h"
+
 #include <math.h>
 
 UILayer:: UILayer():
@@ -10,7 +11,7 @@ UILayer:: UILayer():
 	,_currentScore(0)
 	,_targetScore(0)
 	,_isShowClear(false)
-	,_isStageClear(NULL)
+	,_stageClearSprite(NULL)
 	,_lastCurrentScore(-1)
 {
 }
@@ -21,13 +22,11 @@ UILayer::~ UILayer()
 }
 
  bool UILayer::init(){
-	 if (!Layer::init())
-	 {
+	 if (!Layer::init()){
 		 return false;
 	 }
-	 Size winSize = Director::getInstance()->getWinSize();
 
-/*	TTFConfig config("fonts/Marker Felt.ttf",20);*/
+	 Size winSize = Director::getInstance()->getWinSize();
 
 	_levelLabel = LabelTTF::create(TextBank::getInstance()->getLevelText(),"Arial",20);
 	_levelLabel->setAnchorPoint(Point(0,0));
@@ -95,20 +94,20 @@ UILayer::~ UILayer()
 
 	 _lastCurrentScore = currentScore;
 	 Size winSize = Director::getInstance()->getWinSize();
-	 if (_targetScore < currentScore && _isStageClear == NULL)
+	 if (_targetScore < currentScore && _stageClearSprite == NULL)
 	 {
 		 _isShowClear = true;
-		 _isStageClear = Sprite::create("stage_clear.png");
-		 _isStageClear->setPosition(Point(winSize.width-50,winSize.height-80));
-		 _isStageClear->setScale(0.35f);
-		 this->addChild(_isStageClear);
+		 _stageClearSprite = Sprite::create("stage_clear.png");
+		 _stageClearSprite->setPosition(Point(winSize.width-50,winSize.height-80));
+		 _stageClearSprite->setScale(0.35f);
+		 this->addChild(_stageClearSprite);
 	 }
 	 else{
 		 _isShowClear = false;
-		 if (_isStageClear != NULL)
+		 if (_stageClearSprite != NULL)
 		 {
-			 _isStageClear->setScale(1);
-			 _isStageClear->setVisible(false);
+			 _stageClearSprite->setScale(1);
+			 _stageClearSprite->setVisible(false);
 		 }
 	 }
 
@@ -161,15 +160,15 @@ UILayer::~ UILayer()
  void UILayer::showClear(){
 	 SoundBank::getInstance()->playClear();
 	 Size winSize = Director::getInstance()->getWinSize();
-	 if (_isStageClear == NULL)
+	 if (_stageClearSprite == NULL)
 	 {
-		 _isStageClear = Sprite::create("stage_clear.png");
+		 _stageClearSprite = Sprite::create("stage_clear.png");
 		 
-		 this->addChild(_isStageClear);
+		 this->addChild(_stageClearSprite);
 	 }
-	 _isStageClear->setVisible(true);
-	 _isStageClear->setPosition(winSize.width/2,winSize.height/2);
-	 _isStageClear->runAction(Sequence::create(
+	 _stageClearSprite->setVisible(true);
+	 _stageClearSprite->setPosition(winSize.width/2,winSize.height/2);
+	 _stageClearSprite->runAction(Sequence::create(
 		 Blink::create(0.4f,3),
 		 DelayTime::create(0.3f),
 		 Spawn::create(ScaleTo::create(0.2f,0.35f),MoveTo::create(0.2f,Point(winSize.width-50,winSize.height-80)),NULL),

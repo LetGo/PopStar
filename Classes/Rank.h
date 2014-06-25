@@ -15,7 +15,7 @@ public:
 	void init();
 	void save(const char* name,int score);
 	std::list<info*> getList();
-	bool checkCanSave(int score);
+	bool checkCanSave(const int score);
 	void unInit();
 private:
 	std::string path;

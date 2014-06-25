@@ -6,8 +6,8 @@ class  UILayer :public Layer
 public:
 	 UILayer();
 	~ UILayer();
-	virtual bool init();
-	void update(float dt);
+	virtual bool init() override;
+	void update(float dt) override;
 	CREATE_FUNC(UILayer);
 	void setCurrentScore(int score);
 	void setCanGetScore(int score);
@@ -17,17 +17,17 @@ public:
 	void step(float dt);
 	void setLeaveStar(int leave);
 private:
-	LabelTTF* _levelLabel;
-	LabelTTF* _targetScoreLabel;
-	Label	* _currentScoreLabel;
-	Label* _leaveStarLabel;
-	LabelTTF* _canGetScoreLabel;
-	bool _isShowCanGetScore;
-	float _showTime;
-	int _lastCurrentScore;
-	int _currentScore;
-	int _targetScore;
-	bool _isShowClear;
-	cocos2d::Sprite* _isStageClear;
+	LabelTTF*	_levelLabel;
+	LabelTTF*	_targetScoreLabel;
+	Label	*	_currentScoreLabel;
+	Label	*	_leaveStarLabel;
+	LabelTTF*	_canGetScoreLabel;
+	bool		_isShowCanGetScore;
+	float		_showTime;
+	int			_lastCurrentScore;
+	int			_currentScore;
+	int			_targetScore;
+	bool		_isShowClear;
+	Sprite*		_stageClearSprite;
 };
 

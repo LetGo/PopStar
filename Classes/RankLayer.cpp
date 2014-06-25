@@ -66,15 +66,13 @@ bool RankLayer::init(){
 void RankLayer::setRank(){
 	listView->removeAllItems();
 	std::list<info*> infoList = Rank::getinstance()->getList();
-	for (int i = 0; i < infoList.size(); ++i)
-	{
+	for (int i = 0; i < infoList.size(); ++i){
 		listView->pushBackDefaultItem();
 	}
 
 	int i = 0;
 	char str[30] = {0};
-	for (auto itr = infoList.cbegin(); itr != infoList.cend(); itr++,++i)
-	{
+	for (auto itr = infoList.cbegin(); itr != infoList.cend(); itr++,++i){
 		info* temp = (info*)*itr;
 		Widget* item = listView->getItem(i);
 		Button* button = static_cast<Button*>(item->getChildByName("Title Button"));
@@ -85,22 +83,21 @@ void RankLayer::setRank(){
 
 }
 
-void RankLayer::selectedItemEvent(Ref *pSender, ListView::EventType type)
-{
+void RankLayer::selectedItemEvent(Ref *pSender, ListView::EventType type){
 	switch (type)
 	{
 	case cocos2d::ui::ListView::EventType::ON_SELECTED_ITEM_START:
 		{
 			ListView* listView = static_cast<ListView*>(pSender);
 			CC_UNUSED_PARAM(listView);
-			CCLOG("select child start index = %ld", listView->getCurSelectedIndex());
+			//CCLOG("select child start index = %ld", listView->getCurSelectedIndex());
 			break;
 		}
 	case cocos2d::ui::ListView::EventType::ON_SELECTED_ITEM_END:
 		{
 			ListView* listView = static_cast<ListView*>(pSender);
 			CC_UNUSED_PARAM(listView);
-			CCLOG("select child end index = %ld", listView->getCurSelectedIndex());
+			//CCLOG("select child end index = %ld", listView->getCurSelectedIndex());
 			break;
 		}
 	default:
