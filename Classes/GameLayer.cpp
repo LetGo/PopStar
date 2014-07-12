@@ -592,6 +592,7 @@ void GameLayer::explodeStar(Block* star){
 	char fileName[30];
 	memset(fileName,0,30);
 	sprintf(fileName,PATICLE_NAME.c_str(),star->getIndex());
+
 	auto particleStars = ParticleSystemQuad::create(fileName);
 	particleStars->setAutoRemoveOnFinish(true);
 	particleStars->setBlendAdditive(false);

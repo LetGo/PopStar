@@ -40,6 +40,7 @@ GameManager* GameManager::getInstance(){
 }
 
 void GameManager::init(){
+
 	if (!USEDATA->getIntegerForKey(HIGHTSCORE)){
 		USEDATA->setIntegerForKey(HIGHTSCORE,0);
 		USEDATA->flush();  
