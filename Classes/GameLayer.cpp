@@ -376,7 +376,7 @@ bool GameLayer::onTouchBegan(Touch *touch, Event *unused_event){
 void GameLayer::onTouchEnded(Touch *touch, Event *unused_event)
 {
 	if (_touchStar != NULL){
-		_touchStar->toString();
+		//_touchStar->toString();
 		_touchStar = NULL;
 	}	
 }

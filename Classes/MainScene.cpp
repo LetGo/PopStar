@@ -1,7 +1,7 @@
 #include "MainScene.h"
 #include "GameManager.h"
 #include "SoundBank.h"
-
+#include "TextBank.h"
 #include "Rank.h"
 
 #define BACKGROUND "background_layer0.png"
@@ -68,6 +68,17 @@ bool StartScene::init(){
 	this->addChild(highscore,1);
 
 	TTFConfig config("fonts/tahoma.ttf",20);
+
+	//git
+	auto gitHttp = Label::createWithTTF(config,"Project Address:",TextHAlignment::CENTER);
+	gitHttp->setPosition(Point(winSize.width/2,40.0f));
+	this->addChild(gitHttp,3);
+	gitHttp->setColor(Color3B::RED);
+
+	auto git = Label::createWithTTF(config,"https://github.com/LetGo/PopStar",TextHAlignment::CENTER);
+	git->setPosition(Point(winSize.width/2,20.0f));
+	this->addChild(git);
+
 	_hightScoreLabel = Label::createWithTTF(config,"0",TextHAlignment::LEFT);
 	this->addChild(_hightScoreLabel,2);
 	_hightScoreLabel->setPosition(winSize.width / 2 + 50,winSize.height - highscore->getContentSize().height / 2);
