@@ -27,6 +27,8 @@ x64/
 *.log
 *.vspscc
 *.vssscc
+*.vcxproj
+*.pbxproj
 .builds
 
 # Visual C++ cache files
@@ -36,6 +38,7 @@ ipch/
 *.opensdf
 *.sdf
 *.tlog
+*.sln
 
 # Visual Studio profiler
 *.psess
