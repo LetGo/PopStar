@@ -15,7 +15,7 @@ public:
 	std::string getCanGetScoreText();
 	std::string getGameName();
 	std::string getTypeName();
-	std::string getGitAdd();
+
 private:
 	static TextBank* _instance;
 	std::string _level;
@@ -24,6 +24,5 @@ private:
 	std::string _canGetScore;
 	std::string _name;
 	std::string _typeName;
-	std::string _git;
 };
 

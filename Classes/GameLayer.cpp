@@ -826,3 +826,5 @@ void GameLayer::checkLeaveStar(){
 	}
 	GameManager::getInstance()->setLeaveStar(count);
 }
+
+//EOF

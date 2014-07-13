@@ -96,3 +96,5 @@ void InputLayer::onConfirm(Ref* pSender){
 	GameManager::getInstance()->backToMain();
 
 }
+
+//EOF

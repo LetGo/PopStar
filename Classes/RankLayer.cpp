@@ -22,6 +22,13 @@ bool RankLayer::init(){
 	background->setPosition( Point(winSize.width/2, winSize.height) );
 	this->addChild(background);
 
+	TTFConfig config("fonts/tahoma.ttf",20);
+	//title
+	auto gitHttp = Label::createWithTTF(config,"Ranking List",TextHAlignment::CENTER);
+	gitHttp->setPosition(Point(winSize.width/2,winSize.height - 20.0f));
+	this->addChild(gitHttp,3);
+	gitHttp->setColor(Color3B::YELLOW);
+
 	// Create the list view ex
 	listView = ListView::create();
 	// set list view ex direction
@@ -110,3 +117,5 @@ void RankLayer::onKeyReleased(EventKeyboard::KeyCode keyCode, Event* event){
 		GameManager::getInstance()->backToMain();
 	}
 }
+
+//EOF

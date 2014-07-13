@@ -206,3 +206,5 @@ UILayer::~ UILayer()
 	 std::sprintf(str,"%d",leave);
 	 _leaveStarLabel->setString(str);
  }
+
+ //EOF

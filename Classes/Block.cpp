@@ -104,3 +104,5 @@ std::string Block::getColor(int index){
 
 	return color;
 }
+
+//EOF

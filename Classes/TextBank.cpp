@@ -27,7 +27,6 @@ void TextBank::init(){
 	_canGetScore = ((CCString*)fontDic->objectForKey("canGetScore"))->_string;
 	_name = ((CCString*)fontDic->objectForKey("gameName"))->_string;
 	_typeName = ((CCString*)fontDic->objectForKey("typeName"))->_string;
-	_git = ((CCString*)fontDic->objectForKey("git"))->_string;
 }
 
 void TextBank::unInit(){
@@ -37,7 +36,6 @@ void TextBank::unInit(){
 	_canGetScore = "";
 	_name = "";
 	_typeName = "";
-	_git = "";
 	if (_instance){
 		delete _instance;
 	}
@@ -68,6 +66,4 @@ std::string TextBank::getTypeName(){
 	return _typeName;
 }
 
-std::string TextBank::getGitAdd(){
-	return _git;
-}
+//EOF

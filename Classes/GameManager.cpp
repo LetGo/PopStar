@@ -198,3 +198,5 @@ void GameManager::initDebugData(){
 
 	USEDATA->flush();
 }
+
+//EOF

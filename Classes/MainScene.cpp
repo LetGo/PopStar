@@ -282,3 +282,5 @@ void StartScene::onDebugCallBack(cocos2d::Ref* pSender){
 		Director::getInstance()->setDisplayStats(false);
 	}
 }
+
+//EOF

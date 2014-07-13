@@ -76,3 +76,5 @@ private:
 	bool *_emptyCol;
 };
 
+//EOF
+
