@@ -27,7 +27,8 @@ x64/
 *.log
 *.vspscc
 *.vssscc
-.builds
+*.builds
+*.sln
 
 # Visual C++ cache files
 ipch/
